@@ -1,0 +1,2 @@
+let dealerHand = [];
+let playerHand = [];
