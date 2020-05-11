@@ -1,10 +1,10 @@
 @import "button";
 @import "header";
+@import "card";
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: darkslateblue;
 }
-
-@import "card";
