@@ -31,7 +31,7 @@ let cardTable = document.querySelector(".cards");
 const viewAllCards = () => {
   newDeck.forEach(function (el) {
     let { suit, value } = el;
-    let cardDiv = `<div class="card ${suit}">${value} <div class="${suit}">${suit}</div></div>`;
+    let cardDiv = `<div class="card ${suit}">${value}<div class="${suit}drawing">${suit}</div></div>`;
     cardTable.innerHTML += cardDiv;
   });
 };
