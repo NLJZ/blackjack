@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="./styles/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
 
-        <title>Blackjack</title>
-    </head>
-    <body>
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <h1>Blackjack</h1>
 
-        <h1>Blackjack</h1>
+    <div class="container-1">
+      <!-- Cards -->
+      <div class="box-1" id="dealer-cards">
+        <h2>Dealer</h2>
+      </div>
+      <div class="box-2" id="player-cards">
+        <h2>Player</h2>
+      </div>
 
-        <div class="container-1">
+      <!-- Buttons -->
+      <div class="box-3">
+        <input
+          type="button"
+          id="new-game-button"
+          value="New Game"
+          onclick="newGame();"
+        />
+        <input type="button" id="hit-button" value="Hit" onclick="hit();" />
+        <input
+          type="button"
+          id="stand-button"
+          value="Stand"
+          onclick="stand();"
+        />
+      </div>
+    </div>
 
-            <!-- Cards -->
-            <div class="box-1" id="dealer-cards">
-                <h2>Dealer</h2>
-            </div>
-            <div class="box-2" id="player-cards">
-                <h2>Player</h2>
-            </div>
-
-            <!-- Buttons -->
-            <div class="box-3">
-                <input type='button' id='new-game-button' value='New Game' onclick='newGame();'/>
-                <input type='button' id='hit-button' value='Hit' onclick='hit();'/>
-                <input type='button' id='stand-button' value='Stand' onclick='stand();'/>
-            </div>
-          </div>
-
-          <!-- JavaScript -->
-          <script src="./scripts/index.js"></script>
-    </body>
+    <!-- JavaScript -->
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
