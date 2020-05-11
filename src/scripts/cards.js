@@ -1,6 +1,7 @@
 let newDeck = [];
 
 const buildNewDeck = () => {
+  newDeck.splice(0, newDeck.length);
   let suits = ["hearts", "diamonds", "clubs", "spades"];
   let cardValues = [
     "A",
