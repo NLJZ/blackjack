@@ -1,3 +1,95 @@
 * {
   box-sizing: border-box;
 }
+
+.hearts {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 5%;
+  height: 15vh;
+  .cardValueTop {
+    display: flex;
+    align-content: flex-start;
+  }
+  .heartShape {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardValueBottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+.diamonds {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 5%;
+  height: 15vh;
+  .cardValueTop {
+    display: flex;
+    align-content: flex-start;
+  }
+  .diamondsShape {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardValueBottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+.clubs {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 5%;
+  height: 15vh;
+  .cardValueTop {
+    display: flex;
+    align-content: flex-start;
+  }
+  .clubsShape {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardValueBottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+.spades {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 5%;
+  height: 15vh;
+  .cardValueTop {
+    display: flex;
+    align-content: flex-start;
+  }
+  .spadesShape {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardValueBottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
