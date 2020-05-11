@@ -32,7 +32,7 @@ let cardTable = document.querySelector(".cards");
 const viewAllCards = () => {
   newDeck.forEach(function (el) {
     let { suit, value } = el;
-    let cardDiv = `<div class="card ${suit}"><span class=cardValueTop">${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom">${value}</span></div>`;
+    let cardDiv = `<div class="card ${suit}"><span class=cardValueTop>${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom>${value}</span></div>`;
     cardTable.innerHTML += cardDiv;
   });
 };
