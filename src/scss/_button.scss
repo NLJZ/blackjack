@@ -1,0 +1,19 @@
+.box-3 input {
+  border: 1px solid black;
+  height: 5vh;
+  width: 5wh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: orange;
+  display: flex;
+  font-size: medium;
+  color: white;
+  margin: 10px;
+}
+.box-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
