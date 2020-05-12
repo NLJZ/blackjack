@@ -1,3 +1,4 @@
+// cards front side
 .card-holder,
 .cards {
   display: flex;
@@ -61,5 +62,26 @@
     .spadesShape {
       background-image: url(../images/spades.png);
     }
+  }
+}
+
+// card backside
+.card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .cardBackShape {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 5em;
+    height: 8em;
+    background-color: white;
+    border-radius: 5px;
+    background-image: url(../images/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 93%;
   }
 }
