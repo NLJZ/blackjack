@@ -1,20 +1,25 @@
-.buttons input {
-  border: 3px solid black;
-  height: 5vh;
-  width: 100px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: orange;
-  display: flex;
-  font-size: medium;
-  color: white;
-  margin: 10px;
-  border-radius: 10px;
-}
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 25px;
+  input {
+    border: 1px solid transparent;
+    height: 3em;
+    width: 7em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #32bf84;
+    font-size: 1em;
+    font-family: "Blackjack", Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #cafffb;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  input:hover {
+    font-weight: bold;
+    color: #048243;
+  }
 }

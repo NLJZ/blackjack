@@ -1,14 +1,9 @@
-/* font-family */
-@font-face {
-  font-family: "Cards";
-  src: url(../fonts/CARDC___.TTF);
-}
-
-.box-1,
-.box-2,
+.card-holder,
 .cards {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   .card {
     border: 1px solid black;
     display: flex;
