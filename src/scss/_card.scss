@@ -1,13 +1,9 @@
-.card-holder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .card-holder,
 .cards {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   .card {
     border: 1px solid black;
     display: flex;
