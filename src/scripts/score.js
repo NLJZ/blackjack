@@ -23,8 +23,8 @@ const scoreUpdate = () => {
   });
   dealerScore = dh.reduce((a, b) => a + b, 0);
   playerScore = ph.reduce((a, b) => a + b, 0);
-  (() => {
-    if (dealerScore > 21 && dh.includes(11)) {
-    }
-  })();
+  if (playerScore > 21 && dh.includes(11)) {
+    let newScore = playerScore - 10;
+    let playerScore = newScore;
+  }
 };
