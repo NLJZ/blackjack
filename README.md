@@ -1,8 +1,12 @@
-# Blackjack: The Final Countdown
+# <div align="center">Blackjack: The Final Countdown</div>
 
 # Our first team project made by Nathan, Marcelo, Yaman and Ioannis.
 
-It's a simple game to play in your browser written with HTML, CSS, SaaS and vanilla JavaScript (no libraries).
+It's a simple game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).
+
+## Demo picture
+
+![blackjack picture](./src/images/blackjack-project.png)
 
 ### Game instructions
 
