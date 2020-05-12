@@ -1,10 +1,6 @@
 let dealerScore = 0;
 let playerScore = 0;
 const scoreUpdate = () => {
-  // let dealerScore = 0;
-  // let playerScore = 0;
-  console.log(dealerHand);
-  console.log(playerHand);
   let dh = [];
   let ph = [];
   dealerHand.forEach(function (el) {
@@ -27,6 +23,8 @@ const scoreUpdate = () => {
   });
   dealerScore = dh.reduce((a, b) => a + b, 0);
   playerScore = ph.reduce((a, b) => a + b, 0);
-  console.log(dealerScore);
-  console.log(playerScore);
+  (() => {
+    if (dealerScore > 21 && dh.includes(11)) {
+    }
+  })();
 };
