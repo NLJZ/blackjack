@@ -16,5 +16,4 @@ const newGame = () => {
     let cardDiv = `<div class="card ${suit}"><span class=cardValueTop>${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom>${value}</span></div>`;
     playerCards.innerHTML += cardDiv;
   });
-  console.log(newDeck);
 };
