@@ -5,4 +5,3 @@ function shuffleDeck(arr) {
   }
 }
 shuffleDeck(newDeck);
-console.log(newDeck);
