@@ -7,4 +7,5 @@ const firstDeal = () => {
   dealerHand.push(newDeck.shift(0));
   playerHand.push(newDeck.shift(0));
   dealerHand.push(newDeck.shift(0));
+  scoreUpdate();
 };
