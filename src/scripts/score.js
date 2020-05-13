@@ -1,9 +1,3 @@
-let dealerScore = 0;
-let playerScore = 0;
-let body = document.querySelector("body");
-let scoreDiv = document.createElement("div");
-scoreDiv.style.color = "#fff";
-body.appendChild(scoreDiv);
 const printScore = () => {
   scoreDiv.innerHTML = `<h3>Dealer Score = ${dealerScore}<br>Player Score = ${playerScore}<h3>`;
 };
@@ -30,9 +24,5 @@ const scoreUpdate = () => {
   });
   dealerScore = dh.reduce((a, b) => a + b, 0);
   playerScore = ph.reduce((a, b) => a + b, 0);
-  if (playerScore > 21 && dh.includes(11)) {
-    let newScore = playerScore - 10;
-    let playerScore = newScore;
-  }
   printScore();
 };
