@@ -3,12 +3,11 @@ const youWin = () => {
   wins++;
 };
 
-const youLose = () => {
-  resultArea.innerHTML = `<h2>You Lose...</h2>`;
+const youLose = (string) => {
+  resultArea.innerHTML = `<h2>${string}</h2>`;
   losses++;
 };
 
 const youTie = () => {
   resultArea.innerHTML = `<h2>It's a draw!</h2>`;
-  losses++;
 };
