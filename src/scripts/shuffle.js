@@ -4,4 +4,3 @@ function shuffleDeck(arr) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
 }
-shuffleDeck(newDeck);
