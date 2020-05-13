@@ -1,6 +1,30 @@
 const printScore = () => {
   scoreDiv.innerHTML = `<h3>Dealer Score = ${dealerScore}<br>Player Score = ${playerScore}<h3>`;
 };
+
+const checkForAce = () => {
+  if (playerScore > 21) {
+    for (let i = 0; i < playerHand.length; i++) {
+      if (playerHand[i].value == "A") {
+        playerHand[i].value = 1;
+        playerScore -= 10;
+        scoreUpdate();
+        break;
+      }
+    }
+  }
+  if (dealerScore > 21) {
+    for (let i = 0; i < dealerHand.length; i++) {
+      if (dealerHand[i].value == "A") {
+        dealerHand[i].value = 1;
+        dealerScore -= 10;
+        scoreUpdate();
+        break;
+      }
+    }
+  }
+};
+
 const scoreUpdate = () => {
   let dh = [];
   let ph = [];
@@ -24,5 +48,6 @@ const scoreUpdate = () => {
   });
   dealerScore = dh.reduce((a, b) => a + b, 0);
   playerScore = ph.reduce((a, b) => a + b, 0);
+  checkForAce();
   printScore();
 };
