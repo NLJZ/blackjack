@@ -6,11 +6,21 @@ const newGame = () => {
   firstDeal();
   dealerCards.innerHTML = "<h2>Dealer</h2>";
   playerCards.innerHTML = "<h2>Player</h2>";
-  dealerHand.forEach(function (el) {
-    let { suit, value } = el;
-    let cardDiv = `<div class="card ${suit}"><span class=cardValueTop>${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom>${value}</span></div>`;
+  let dealerFaceUp = dealerHand[1];
+  const dealerCardsDeal = () => {
+    let { suit, value } = dealerFaceUp;
+    let cardDiv = `
+    <div class="card-back">
+    <span class="cardBackShape"></span>
+    </div>
+    <div class="card ${suit}">
+    <span class=cardValueTop>${value}</span>
+    <span class="${suit}Shape"></span>
+    <span class=cardValueBottom>${value}</span>
+    </div>`;
     dealerCards.innerHTML += cardDiv;
-  });
+  };
+  dealerCardsDeal();
   playerHand.forEach(function (el) {
     let { suit, value } = el;
     let cardDiv = `<div class="card ${suit}"><span class=cardValueTop>${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom>${value}</span></div>`;
