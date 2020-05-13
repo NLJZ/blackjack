@@ -1,7 +1,3 @@
-const body = document.querySelector("body");
-let scoreDiv = document.createElement("div");
-scoreDiv.style.color = "#fff";
-body.appendChild(scoreDiv);
 const printScore = () => {
   scoreDiv.innerHTML = `<h3>Dealer Score = ${dealerScore}<br>Player Score = ${playerScore}<h3>`;
 };

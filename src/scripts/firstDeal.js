@@ -1,5 +1,3 @@
-let dealerHand = [];
-let playerHand = [];
 const firstDeal = () => {
   dealerHand.splice(0, dealerHand.length);
   playerHand.splice(0, playerHand.length);
