@@ -16,7 +16,8 @@
     height: 8em;
     background-color: white;
     border-radius: 5px;
-    position: sticky;
+    align-content: center;
+    justify-content: center;
     .cardValueTop,
     .cardValueBottom {
       background-color: initial;
@@ -65,6 +66,15 @@
     .spadesShape {
       background-image: url(../images/spades.png);
     }
+  }
+}
+
+#player-cards {
+  .card:nth-child(8) {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 210px;
   }
 }
 
