@@ -13,9 +13,9 @@
   <body>
     <!-- Header with title and cards -->
     <div class="header">
-      <img class="img-right" src="./images/card-A.jpg" alt="A" />
+      <!-- <img class="img-right" src="./images/card-A.jpg" alt="A" /> -->
       <h1>Blackjack</h1>
-      <img class="img-left" src="./images/card-10.jpg" alt="10" />
+      <!-- <img class="img-left" src="./images/card-10.jpg" alt="10" /> -->
     </div>
 
     <!-- Buttons -->
@@ -34,6 +34,37 @@
     <div class="container-1">
       <div class="card-holder" id="dealer-cards"></div>
       <div class="card-holder" id="player-cards"></div>
+      <!-- Four initial cards to be hidden when button "NEW GAME" is pressed -->
+      <div class="table-cards-start" id="table-cards-start">
+        <div class="card card-1">
+          <span class="cardValueTop">A</span>
+          <span class="clubsShape">
+            <img src="./images/clubs.png" alt="clubs" width="50px" />
+          </span>
+          <span class="cardValueBottom">A</span>
+        </div>
+        <div class="card card-2">
+          <span class="cardValueTop">A</span>
+          <span class="heartsShape">
+            <img src="./images/hearts.png" alt="hearts" width="50px" />
+          </span>
+          <span class="cardValueBottom">A</span>
+        </div>
+        <div class="card card-3">
+          <span class="cardValueTop">A</span>
+          <span class="spadesShape">
+            <img src="./images/spades.png" alt="spades" width="50px" />
+          </span>
+          <span class="cardValueBottom">A</span>
+        </div>
+        <div class="card card-4">
+          <span class="cardValueTop">A</span>
+          <span class="diamondsShape">
+            <img src="./images/diamonds.png" alt="diamonds" width="50px" />
+          </span>
+          <span class="cardValueBottom">A</span>
+        </div>
+      </div>
     </div>
 
     <!-- Chips -->
@@ -52,7 +83,7 @@
     </div>
 
     <!-- To see all the cards when it is necessary -->
-    <!--  <div class="cards"></div> -->
+    <!-- <div class="cards"></div> -->
     <!-- <div class="card-back">
       <span class="cardBackShape"></span>
     </div> -->
