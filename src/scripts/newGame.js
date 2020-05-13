@@ -1,4 +1,9 @@
 const newGame = () => {
+  newButt.classList.add("hide");
+  tableCards.classList.add("hide");
+  hitButt.classList.remove("hide");
+  standButt.classList.remove("hide");
+
   buildNewDeck();
   shuffleDeck(newDeck);
   resultArea.innerHTML = "";

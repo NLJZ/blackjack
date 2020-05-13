@@ -1,7 +1,3 @@
-const printScore = () => {
-  scoreDiv.innerHTML = `<h3>Dealer Score = ${dealerScore}<br>Player Score = ${playerScore}<h3>`;
-};
-
 const checkForAce = () => {
   if (playerScore > 21) {
     for (let i = 0; i < playerHand.length; i++) {
@@ -49,5 +45,4 @@ const scoreUpdate = () => {
   dealerScore = dh.reduce((a, b) => a + b, 0);
   playerScore = ph.reduce((a, b) => a + b, 0);
   checkForAce();
-  printScore();
 };

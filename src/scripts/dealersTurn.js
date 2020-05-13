@@ -1,12 +1,19 @@
 const stand = () => {
   dealersTurn();
+  hitButt.classList.add("hide");
+  standButt.classList.add("hide");
+  newButt.classList.remove("hide");
 };
 
 const dealersTurn = () => {
   dealerCards.innerHTML = "<h2>Dealer</h2>";
   dealerHand.forEach(function (el) {
     let { suit, value } = el;
-    let cardDiv = `<div class="card ${suit}"><span class=cardValueTop>${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom>${value}</span></div>`;
+    let cardDiv = `<div class="card ${suit}">
+    <span class=cardValueTop>${value}</span>
+    <span class="${suit}Shape"></span>
+    <span class=cardValueBottom>${value}</span>
+    </div>`;
     dealerCards.innerHTML += cardDiv;
   });
   while (dealerScore < 17) {
@@ -27,6 +34,6 @@ const dealersTurn = () => {
   } else if (dealerScore == playerScore) {
     youTie();
   } else {
-    youLose();
+    youLose("You lose!");
   }
 };

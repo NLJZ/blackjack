@@ -20,14 +20,25 @@
 
     <!-- Buttons -->
     <div class="buttons">
-      <input
-        type="button"
-        id="new-game-button"
-        value="NEW GAME"
-        onclick="newGame();"
-      />
-      <input type="button" id="hit-button" value="HIT" onclick="hit();" />
-      <input type="button" id="stand-button" value="STAND" onclick="stand();" />
+      <div id="newGame">
+        <input
+          type="button"
+          id="new-game-button"
+          value="NEW GAME"
+          onclick="newGame();"
+        />
+      </div>
+      <div id="hit" class="hide">
+        <input type="button" id="hit-button" value="HIT" onclick="hit();" />
+      </div>
+      <div id="stand" class="hide">
+        <input
+          type="button"
+          id="stand-button"
+          value="STAND"
+          onclick="stand();"
+        />
+      </div>
     </div>
 
     <!-- Table for Dealer and Player cards -->
@@ -77,10 +88,7 @@
     </div>
 
     <!-- Game result display -->
-    <div class="display-result">
-      <h2 id="you-win">You Win!</h2>
-      <h2 id="dealer-wins">Dealer Wins!</h2>
-    </div>
+    <div class="display-result"></div>
 
     <!-- To see all the cards when it is necessary -->
     <!-- <div class="cards"></div> -->
