@@ -5,6 +5,8 @@ const body = document.querySelector("body");
 const newButt = document.getElementById("new-game-button");
 const hitButt = document.getElementById("hit-button");
 const standButt = document.getElementById("stand-button");
+let wins = 0;
+let losses = 0;
 let scoreDiv = document.createElement("div");
 scoreDiv.style.color = "#fff";
 body.appendChild(scoreDiv);

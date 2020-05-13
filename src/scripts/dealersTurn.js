@@ -1,6 +1,7 @@
 const stand = () => {
   dealersTurn();
 };
+
 const dealersTurn = () => {
   dealerCards.innerHTML = "<h2>Dealer</h2>";
   dealerHand.forEach(function (el) {
@@ -23,6 +24,8 @@ const dealersTurn = () => {
   }
   if (dealerScore < playerScore || dealerScore > 21) {
     youWin();
+  } else if (dealerScore == playerScore) {
+    youTie();
   } else {
     youLose();
   }
