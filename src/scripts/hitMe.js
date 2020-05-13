@@ -10,4 +10,5 @@ const hit = () => {
   </div>`;
   playerCards.innerHTML += cardDiv;
   scoreUpdate();
+  checkBust();
 };

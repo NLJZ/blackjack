@@ -1,8 +1,7 @@
-const playerCards = document.getElementById("player-cards");
-const dealerCards = document.getElementById("dealer-cards");
 const newGame = () => {
   buildNewDeck();
   shuffleDeck(newDeck);
+  resultArea.innerHTML = "";
   firstDeal();
   dealerCards.innerHTML = "<h2>Dealer</h2>";
   playerCards.innerHTML = "<h2>Player</h2>";

@@ -1,6 +1,4 @@
-let dealerScore = 0;
-let playerScore = 0;
-let body = document.querySelector("body");
+const body = document.querySelector("body");
 let scoreDiv = document.createElement("div");
 scoreDiv.style.color = "#fff";
 body.appendChild(scoreDiv);
