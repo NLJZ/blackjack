@@ -11,7 +11,12 @@
     <title>Blackjack</title>
   </head>
   <body>
-    <h1>Blackjack</h1>
+    <!-- Header with title and cards -->
+    <div class="header">
+      <img class="img-right" src="./images/card-A.jpg" alt="A" />
+      <h1>Blackjack</h1>
+      <img class="img-left" src="./images/card-10.jpg" alt="10" />
+    </div>
 
     <!-- Buttons -->
     <div class="buttons">
@@ -25,24 +30,30 @@
       <input type="button" id="stand-button" value="STAND" onclick="stand();" />
     </div>
 
-    <!-- Cards -->
+    <!-- Table for Dealer and Player cards -->
     <div class="container-1">
-      <div class="card-holder" id="dealer-cards">
-        <!-- <h2>Dealer</h2> -->
-      </div>
-      <div class="card-holder" id="player-cards">
-        <!-- <h2>Player</h2> -->
-      </div>
+      <div class="card-holder" id="dealer-cards"></div>
+      <div class="card-holder" id="player-cards"></div>
     </div>
 
+    <!-- Chips -->
+    <div class="chips">
+      <img class="chip-1" src="./images/chip.png" alt="chip" />
+      <img class="chip-2" src="./images/chip.png" alt="chip" />
+      <img class="chip-1" src="./images/chip.png" alt="chip" />
+      <img class="chip-2" src="./images/chip.png" alt="chip" />
+      <img class="chip-1" src="./images/chip.png" alt="chip" />
+    </div>
+
+    <!-- Game result display -->
     <div class="display-result">
       <h2 id="you-win">You Win!</h2>
       <h2 id="dealer-wins">Dealer Wins!</h2>
     </div>
 
     <!-- To see all the cards when it is necessary -->
-    <!-- <div class="cards"></div>
-    <div class="card-back">
+    <!--  <div class="cards"></div> -->
+    <!-- <div class="card-back">
       <span class="cardBackShape"></span>
     </div> -->
 
