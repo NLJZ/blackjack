@@ -6,14 +6,15 @@
   .img-right,
   .img-left {
     width: 60px;
+    max-width: 100%;
     height: 90px;
     margin: 30px;
   }
   .img-right {
-    transform: rotate(160deg);
+    transform: rotate(340deg);
   }
   .img-left {
-    transform: rotate(200deg);
+    transform: rotate(20deg);
   }
 }
 
