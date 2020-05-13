@@ -8,5 +8,7 @@ body.appendChild(scoreDiv);
 let newDeck = [];
 let dealerHand = [];
 let playerHand = [];
+let dealerAces = 0;
+let playerAces = 0;
 let dealerScore = 0;
 let playerScore = 0;
