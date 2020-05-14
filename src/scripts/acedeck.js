@@ -4,7 +4,6 @@ const makeAceDeck = () => {
   tableCards.classList.add("hide");
   hitButt.classList.remove("hide");
   standButt.classList.remove("hide");
-
   newDeck.splice(0, newDeck.length);
   let suits = ["hearts", "diamonds", "clubs", "spades"];
   let cardValues = [
@@ -20,7 +19,7 @@ const makeAceDeck = () => {
     "A",
     "A",
     "A",
-    "a",
+    "A",
   ];
   suits.forEach(function (suit) {
     cardValues.forEach(function (value) {
