@@ -3,7 +3,6 @@ const newGame = () => {
   tableCards.classList.add("hide");
   hitButt.classList.remove("hide");
   standButt.classList.remove("hide");
-
   buildNewDeck();
   shuffleDeck(newDeck);
   resultArea.innerHTML = "";
@@ -30,4 +29,5 @@ const newGame = () => {
     let cardDiv = `<div class="card ${suit}"><span class=cardValueTop>${value}</span><span class="${suit}Shape"></span><span class=cardValueBottom>${value}</span></div>`;
     playerCards.innerHTML += cardDiv;
   });
+  scoreUpdate();
 };
