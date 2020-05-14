@@ -1,21 +1,24 @@
-// "Table for Dealer and Player cards", "Four initial cards"
+// "Table for Dealer and Player cards", "Four inital cards"
 .container-1 {
-  border: 3px groove #32bf84;
+  // border: 3px groove #32bf84;
+  border: 10px solid black;
   background-color: #32bf84;
   display: flex;
   flex-direction: column;
-  width: 44em;
+  flex-wrap: wrap;
+  width: 45em;
   max-width: 100%;
-  height: 20em;
-  min-height: 10%;
+  min-height: 30em;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  // border-radius: 20px;
+  border-radius: 4% 4% 50% 50%;
   font-family: "Blackjack", Arial, Helvetica, sans-serif;
   text-align: justify;
   padding: 20px;
   .table-cards-start {
-    height: 100vh;
+    height: 17em;
     display: flex;
     align-items: center;
     justify-content: center;
