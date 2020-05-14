@@ -1,14 +1,25 @@
-# <div align="center">Blackjack: The Final Countdown</div>
+# <div align="center">Blackjack - The Final Countdown</div> <br/>
 
-# Our first team project made by Nathan, Marcelo, Yaman and Ioannis.
+# <div align="center">Our first team project made by:</div> <br/>
 
-It's a simple game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).
+<div align="center">
 
-## Demo picture
+<img src="./src/images/nathan.jpeg" width="150"> <h3><strong>Nathan:</strong> our Project Manager who worked on everything</h3><br/>
 
-![blackjack picture](./src/images/blackjack-project.png)
+<img src="./src/images/marcelo.jpeg" width="150"> <h3><strong>Marcelo:</strong> our HTML/CSS specialist</h3><br/>
 
-### Game instructions
+<img src="./src/images/yaman.jpeg" width="150"> <h3><strong>Yaman:</strong> our HTML/CSS contributor</h3><br/>
+
+<img src="./src/images/ioannis.jpeg" width="150"> <h3><strong>Ioannis:</strong> our JS contributor</h3><br/>
+
+</div>
+ <br/>
+
+## <div align="center">An enjoyable card game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).</div> <br/>
+
+![blackjack picture](./src/images/blackjack.png)
+
+## Game instructions
 
 - The card deck is generated and then shuffled before the start of the game.
 - Ace as a special card is evaluated as "1" or "11" depending on player cards in hand.
