@@ -1,4 +1,5 @@
 const stand = () => {
+  scoreUpdate();
   dealersTurn();
   hitButt.classList.add("hide");
   standButt.classList.add("hide");
