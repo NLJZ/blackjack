@@ -2,15 +2,18 @@
 
 # <div align="center">Our first team project made by:</div> <br/>
 
-![Nathan](./src/images/nathan.jpeg) Nathan: our Project Manager who worked on everything
+<div align="center">
 
-![Marcelo](./src/images/marcelo.jpeg) Marcelo: our HTML/CSS specialist
+<img src="./src/images/nathan.jpeg" width="150"> <h3><strong>Nathan:</strong> our Project Manager who worked on everything</h3><br/>
 
-![Yaman](./src/images/yaman.jpeg) Yaman: our HTML/CSS contributor
+<img src="./src/images/marcelo.jpeg" width="150"> <h3><strong>Marcelo:</strong> our HTML/CSS specialist</h3><br/>
 
-![Ioannis](./src/images/ioannis.jpeg) Ioannis: our JS contributor
+<img src="./src/images/yaman.jpeg" width="150"> <h3><strong>Yaman:</strong> our HTML/CSS contributor</h3><br/>
 
-<br/>
+<img src="./src/images/ioannis.jpeg" width="150"> <h3><strong>Ioannis:</strong> our JS contributor</h3><br/>
+
+</div>
+ <br/>
 
 ## <div align="center">An enjoyable card game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).</div> <br/>
 
