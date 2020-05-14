@@ -1,0 +1,93 @@
+// CSS for the mobile version of the app
+
+@media screen and (max-width: 600px) {
+  // Header with "Blackjack" title
+  .header {
+    width: 13em;
+    border-bottom: 10px double black;
+    h1 {
+      padding-top: 0;
+      font-size: 3em;
+    }
+  }
+  // Buttons
+  .buttons {
+    padding: 0;
+    input {
+      height: 2.5em;
+      width: 6.5em;
+      margin: 10px;
+    }
+  }
+  // "Table for Dealer and Player cards",
+  // "Four inital cards"
+  .container-1 {
+    border: 6px solid black;
+    border-radius: 5%;
+    max-width: 90%;
+    min-height: 25em;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    h2 {
+      width: 100%;
+      font-size: 20px;
+    }
+    .cardBackShape {
+      margin-top: 5px;
+      height: 5.5em;
+      width: 4em;
+    }
+    .card {
+      height: 5.5em;
+      width: 4em;
+      .cardValueTop,
+      .cardValueBottom {
+        font-size: 15px;
+      }
+      .cardValueTop {
+        width: 4em;
+      }
+      .cardValueBottom {
+        width: 4em;
+      }
+      .heartsShape,
+      .diamondsShape,
+      .clubsShape,
+      .spadesShape {
+        background-size: 40%;
+      }
+    }
+  }
+  // Cards
+  #player-cards {
+    .card:nth-child(8) {
+      margin-left: 5px;
+    }
+  }
+  // Chips
+  .chips {
+    padding: 5px;
+  }
+  // Game result display
+  .display-result {
+    h2 {
+      width: 14em;
+      font-size: 18px;
+    }
+  }
+  // Table for Dealer and Player cards
+  .card-holder {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  // "Four inital cards"
+  .table-cards-start {
+    margin-top: 60px;
+  }
+}
+
+// @media screen and (min-width: 600px) and (max-width: 992px)
+// }
