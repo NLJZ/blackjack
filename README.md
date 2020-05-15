@@ -21,6 +21,10 @@
 
 ![blackjack picture](./src/images/Screen_Browser_2.png)
 
+![blackjack picture](./src/images/Screen_Browser_3.png)
+
+![blackjack picture](./src/images/Screen_Browser_4.png)
+
 ![blackjack picture](./src/images/Screen_Mobile_Horizontal_1.png)
 
 ![blackjack picture](./src/images/Screen_Mobile_Horizontal_2.png)
