@@ -1,42 +1,39 @@
 // "Table for Dealer and Player cards", "Four inital cards"
 .container-1 {
-  // border: 3px groove #32bf84;
-  border: 10px solid black;
   background-color: #32bf84;
+  border: 10px solid black;
+  border-radius: 4% 4% 50% 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 45em;
   max-width: 100%;
-  min-height: 30em;
+  min-height: 33em;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  // border-radius: 20px;
-  border-radius: 4% 4% 50% 50%;
   font-family: "Blackjack", Arial, Helvetica, sans-serif;
   text-align: justify;
-  padding: 20px;
   .table-cards-start {
-    height: 17em;
+    height: 20em;
     display: flex;
     align-items: center;
     justify-content: center;
     .card {
+      background-color: white;
       border: 1px solid black;
+      border-radius: 5px;
       display: flex;
       flex-direction: column;
-      margin: 5px;
+      margin: 0.313em;
       width: 5em;
       height: 8em;
-      background-color: white;
-      border-radius: 5px;
       .cardValueTop,
       .cardValueBottom {
         background-color: initial;
-        padding: 3px;
+        padding: 0.188em;
         font-family: "Cards", Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 1.25em;
       }
       .cardValueTop {
         display: flex;
@@ -47,8 +44,6 @@
       .cardValueBottom {
         display: flex;
         flex-direction: column;
-        //   align-items: flex-end;
-        //   justify-content: flex-end;
         transform: rotate(180deg);
       }
       .heartsShape,
