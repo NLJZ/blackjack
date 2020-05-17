@@ -1,6 +1,6 @@
 # <div align="center">Blackjack - The Final Countdown</div> <br/>
 
-# <div align="center">Our first team project made by:</div> <br/>
+## <div align="center">Our first Team-Project made by:</div> <br/>
 
 <div align="center">
 
@@ -17,19 +17,23 @@
 
 ## <div align="center">An enjoyable card game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).</div> <br/>
 
-![blackjack picture](./src/images/Screen_Browser_1.png)
-
 ![blackjack picture](./src/images/Screen_Browser_2.png)
-
-![blackjack picture](./src/images/Screen_Browser_3.png)
 
 ![blackjack picture](./src/images/Screen_Browser_4.png)
 
-![blackjack picture](./src/images/Screen_Mobile_Horizontal_1.png)
-
-![blackjack picture](./src/images/Screen_Mobile_Horizontal_2.png)
-
 ![blackjack picture](./src/images/Screen_Mobile_Vertical_1+2.png)
+
+## A reference to an interesting algorithm we used
+
+We used the the modern version of the Fisher–Yates shuffle, the algorithm to generate a random sequence with our cards. The new algorithm, was designed for computer use by Richard Durstenfeld in 1964 and popularized by Donald E. Knuth. The basic method given for generating a random permutation of the numbers 1 through N goes as follows:
+
+- Write down the numbers from 1 through N.
+- Pick a random number k between one and the number of unstruck numbers remaining (inclusive).
+- Counting from the low end, strike out the kth number not yet struck out, and write it down at the end of a separate list.
+- Repeat from step 2 until all the numbers have been struck out.
+- The sequence of numbers written down in step 3 is now a random permutation of the original numbers.
+
+The algorithm described by Durstenfeld differs from that given by Fisher and Yates in a small but significant way. Whereas a naïve computer implementation of Fisher and Yates' method would spend needless time counting the remaining numbers in step 3 above, Durstenfeld's solution is to move the "struck" numbers to the end of the list by swapping them with the last unstruck number at each iteration
 
 ## Game instructions
 
