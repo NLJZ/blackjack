@@ -17,12 +17,10 @@
   <body>
     <!-- Header with "Blackjack" title -->
     <div class="header">
-      <!-- <img class="img-right" src="./images/card-A.jpg" alt="A" /> -->
       <h1>Blackjack</h1>
-      <!-- <img class="img-left" src="./images/card-10.jpg" alt="10" /> -->
     </div>
 
-    <!-- Buttons -->
+    <!-- "NEW GAME", "HIT", and "STAND" buttons -->
     <div class="buttons">
       <div id="newGame">
         <input
@@ -45,9 +43,19 @@
       </div>
     </div>
 
+    <!-- Wins and Losses display -->
+    <div class="winsandlosses">
+      <div id="wins"></div>
+      <div id="losses"></div>
+    </div>
+
     <!-- Table for Dealer and Player cards -->
     <div class="container-1">
+      <!-- Game result display -->
+      <div class="display-result"></div>
+      <!-- Dealer cards -->
       <div class="card-holder" id="dealer-cards"></div>
+      <!-- Player cards -->
       <div class="card-holder" id="player-cards"></div>
       <!-- Four initial cards to be hidden when button "NEW GAME" is pressed -->
       <div class="table-cards-start" id="table-cards-start">
@@ -92,20 +100,6 @@
       </div>
       <img class="chip-1" src="./images/chip.png" alt="chip" />
     </div>
-
-    <!-- Game result display -->
-    <div class="display-result"></div>
-
-    <div class="winsandlosses">
-      <div id="wins"></div>
-      <div id="losses"></div>
-    </div>
-
-    <!-- To see all the cards when it is necessary -->
-    <!-- <div class="cards"></div> -->
-    <!-- <div class="card-back">
-      <span class="cardBackShape"></span>
-    </div> -->
 
     <!-- JavaScript -->
     <script src="./scripts/index.js"></script>

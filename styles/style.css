@@ -18,50 +18,33 @@ body {
   width: 19em;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
-}
-.header .img-right,
-.header .img-left {
-  width: 60px;
-  max-width: 100%;
-  height: 90px;
-  margin: 30px;
-}
-.header .img-right {
-  transform: rotate(340deg);
-}
-.header .img-left {
-  transform: rotate(20deg);
+  padding: 0.313em;
 }
 
 h1 {
-  padding-top: 10px;
   text-align: center;
   color: black;
-  font-size: 70px;
+  font-size: 4.375em;
   font-weight: bolder;
 }
 
 h2 {
   text-align: center;
   color: #cafffb;
-  padding: 10px;
-  font-size: 26px;
-}
-
-h3 {
-  text-align: center;
-  padding: 10px;
+  padding: 0.3em;
+  font-size: 1.6em;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 1em;
 }
 .buttons input {
   border: 3px groove #32bf84;
+  border-radius: 10px;
+  margin: 0.5em;
   height: 3em;
   width: 7em;
   justify-content: center;
@@ -72,8 +55,6 @@ h3 {
   font-family: "Blackjack", Arial, Helvetica, sans-serif;
   display: flex;
   color: #cafffb;
-  margin: 10px;
-  border-radius: 10px;
 }
 .buttons input:hover {
   font-weight: bold;
@@ -81,44 +62,43 @@ h3 {
 }
 
 .container-1 {
-  border: 10px solid black;
   background-color: #32bf84;
+  border: 10px solid black;
+  border-radius: 4% 4% 50% 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 45em;
   max-width: 100%;
-  min-height: 30em;
+  min-height: 33em;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 4% 4% 50% 50%;
   font-family: "Blackjack", Arial, Helvetica, sans-serif;
   text-align: justify;
-  padding: 20px;
 }
 .container-1 .table-cards-start {
-  height: 17em;
+  height: 20em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .container-1 .table-cards-start .card {
+  background-color: white;
   border: 1px solid black;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 0.313em;
   width: 5em;
   height: 8em;
-  background-color: white;
-  border-radius: 5px;
 }
 .container-1 .table-cards-start .card .cardValueTop,
 .container-1 .table-cards-start .card .cardValueBottom {
   background-color: initial;
-  padding: 3px;
+  padding: 0.188em;
   font-family: "Cards", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .container-1 .table-cards-start .card .cardValueTop {
   display: flex;
@@ -186,26 +166,26 @@ h3 {
 }
 .card-holder .card,
 .cards .card {
+  background-color: white;
   border: 1px solid black;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  align-content: center;
+  justify-content: center;
+  margin: 0.313em;
   width: 5em;
   max-width: 100%;
   height: 8em;
-  background-color: white;
-  border-radius: 5px;
-  align-content: center;
-  justify-content: center;
 }
 .card-holder .card .cardValueTop,
 .card-holder .card .cardValueBottom,
 .cards .card .cardValueTop,
 .cards .card .cardValueBottom {
   background-color: initial;
-  padding: 3px;
+  padding: 0.188em;
   font-family: "Cards", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .card-holder .card .cardValueTop,
 .cards .card .cardValueTop {
@@ -261,7 +241,7 @@ h3 {
   display: flex;
   align-content: center;
   justify-content: center;
-  margin-left: 210px;
+  margin-left: 12.75em;
 }
 
 .card-back {
@@ -271,13 +251,13 @@ h3 {
 }
 .card-back .cardBackShape {
   border: 1px solid black;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 0.313em;
   width: 5em;
   height: 8em;
   background-color: white;
-  border-radius: 5px;
   background-image: url(../images/back.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -288,14 +268,14 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 1em;
 }
 .chips .chip-1,
 .chips .chip-2 {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  margin: 2px;
+  margin: 0.125em;
 }
 .chips .chip-1 {
   background-color: #32bf84;
@@ -312,198 +292,32 @@ h3 {
   display: block;
 }
 
+.display-result {
+  padding: 0.5em;
+}
 .display-result h2 {
-  background-color: #32bf84;
-  width: 15em;
+  background-color: transparent;
+  border: 3px groove transparent;
+  border-radius: 10px;
+  width: 25em;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 3px groove #32bf84;
-  border-radius: 10px;
   font-family: "Blackjack", Arial, Helvetica, sans-serif;
-  font-size: 26px;
+  font-size: 1.5em;
   text-align: center;
   color: firebrick;
 }
 
-@media screen and (max-width: 600px) {
-  .header {
-    width: 13em;
-    border-bottom: 10px double black;
-  }
-  .header h1 {
-    padding-top: 0;
-    font-size: 3em;
-  }
-
-  .buttons {
-    padding: 0;
-  }
-  .buttons input {
-    height: 2.5em;
-    width: 6.5em;
-    margin: 10px;
-  }
-
-  .container-1 {
-    border: 6px solid black;
-    border-radius: 5%;
-    max-width: 90%;
-    min-height: 25em;
-    height: 100%;
-    margin-top: 0;
-    padding: 0;
-    padding-bottom: 5px;
-  }
-  .container-1 h2 {
-    width: 100%;
-    font-size: 20px;
-  }
-  .container-1 .cardBackShape {
-    margin-top: 5px;
-    height: 5.5em;
-    width: 4em;
-  }
-  .container-1 .card {
-    height: 5.5em;
-    width: 4em;
-  }
-  .container-1 .card .cardValueTop,
-.container-1 .card .cardValueBottom {
-    font-size: 15px;
-  }
-  .container-1 .card .cardValueTop {
-    width: 4em;
-  }
-  .container-1 .card .cardValueBottom {
-    width: 4em;
-  }
-  .container-1 .card .heartsShape,
-.container-1 .card .diamondsShape,
-.container-1 .card .clubsShape,
-.container-1 .card .spadesShape {
-    background-size: 40%;
-  }
-
-  #player-cards .card:nth-child(8) {
-    margin-left: 5px;
-  }
-
-  .chips {
-    padding: 5px;
-  }
-
-  .display-result h2 {
-    width: 14em;
-    font-size: 18px;
-  }
-
-  .card-holder {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .table-cards-start {
-    margin-top: 60px;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 992px) {
-  .header {
-    width: 13em;
-    border-bottom: 10px double black;
-  }
-  .header h1 {
-    padding-top: 0;
-    font-size: 3em;
-  }
-
-  .buttons {
-    padding: 0;
-  }
-  .buttons input {
-    height: 2.5em;
-    width: 6.5em;
-    margin: 10px;
-  }
-
-  .container-1 {
-    border: 4px solid black;
-    border-radius: 3%;
-    max-width: 90%;
-    min-height: 5em;
-    margin-top: 0;
-    padding: 0;
-    padding-bottom: 5px;
-  }
-  .container-1 h2 {
-    font-size: 20px;
-  }
-  .container-1 .cardBackShape {
-    margin-top: 5px;
-    height: 5.5em;
-    width: 4em;
-  }
-  .container-1 .card {
-    height: 5.5em;
-    width: 4em;
-  }
-  .container-1 .card .cardValueTop,
-.container-1 .card .cardValueBottom {
-    font-size: 15px;
-  }
-  .container-1 .card .cardValueTop {
-    width: 4em;
-  }
-  .container-1 .card .cardValueBottom {
-    width: 4em;
-  }
-  .container-1 .card .heartsShape,
-.container-1 .card .diamondsShape,
-.container-1 .card .clubsShape,
-.container-1 .card .spadesShape {
-    background-size: 40%;
-  }
-
-  #player-cards .card:nth-child(8) {
-    margin-left: 5px;
-  }
-
-  .chips {
-    display: none;
-  }
-
-  .display-result h2 {
-    height: 2.5em;
-    width: 14em;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 32%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-
-  .table-cards-start {
-    max-height: 196px;
-    padding-top: 25px;
-  }
-}
 .winsandlosses {
-  position: fixed;
-  top: 0;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: 1rem;
   font-family: "Blackjack", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1em;
 }
 .winsandlosses #wins,
 .winsandlosses #losses {
@@ -514,6 +328,193 @@ h3 {
   padding-right: 0.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .header {
+    border-bottom: 10px double black;
+    width: 13em;
+  }
+  .header h1 {
+    font-size: 3em;
+  }
+
+  .buttons {
+    padding: 0;
+  }
+  .buttons input {
+    height: 2.5em;
+    width: 6.5em;
+    margin: 0.625em;
+  }
+
+  .container-1 {
+    border: 6px solid black;
+    border-radius: 5%;
+    max-width: 90%;
+    min-height: 26.5em;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 0.313em;
+  }
+  .container-1 h2 {
+    width: 100%;
+    font-size: 1.25em;
+  }
+  .container-1 .cardBackShape {
+    margin-top: 0.313em;
+    height: 5.5em;
+    width: 4em;
+  }
+  .container-1 .card {
+    height: 5.5em;
+    width: 4em;
+  }
+  .container-1 .card .cardValueTop,
+.container-1 .card .cardValueBottom {
+    font-size: 0.938em;
+  }
+  .container-1 .card .cardValueTop {
+    width: 4em;
+  }
+  .container-1 .card .cardValueBottom {
+    width: 4em;
+  }
+  .container-1 .card .heartsShape,
+.container-1 .card .diamondsShape,
+.container-1 .card .clubsShape,
+.container-1 .card .spadesShape {
+    background-size: 40%;
+  }
+
+  #player-cards .card:nth-child(8) {
+    margin-left: 0.313em;
+  }
+
+  .chips {
+    padding: 0.313em;
+  }
+
+  .chip-1,
+.chip-2 {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle;
+  }
+
+  .display-result h2 {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 0;
+  }
+
+  .card-holder {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .table-cards-start {
+    margin-top: 1em;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .winsandlosses {
+    position: fixed;
+    top: 0;
+    justify-content: flex-end;
+  }
+  .winsandlosses #wins,
+.winsandlosses #losses {
+    font-size: 1rem;
+  }
+  .winsandlosses #losses {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .header {
+    width: 13em;
+    border-bottom: 10px double black;
+  }
+  .header h1 {
+    padding-top: 0;
+    font-size: 3em;
+  }
+
+  .buttons {
+    padding: 0;
+  }
+  .buttons input {
+    height: 2.5em;
+    width: 6.5em;
+    margin: 0.625em;
+  }
+
+  .container-1 {
+    border: 4px solid black;
+    border-radius: 3%;
+    max-width: 90%;
+    min-height: 5em;
+    margin-top: 0;
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+  .container-1 h2 {
+    font-size: 1.25em;
+  }
+  .container-1 .cardBackShape {
+    margin-top: 0.313em;
+    height: 5.5em;
+    width: 4em;
+  }
+  .container-1 .card {
+    height: 5.5em;
+    width: 4em;
+  }
+  .container-1 .card .cardValueTop,
+.container-1 .card .cardValueBottom {
+    font-size: 0.938em;
+  }
+  .container-1 .card .cardValueTop {
+    width: 4em;
+  }
+  .container-1 .card .cardValueBottom {
+    width: 4em;
+  }
+  .container-1 .card .heartsShape,
+.container-1 .card .diamondsShape,
+.container-1 .card .clubsShape,
+.container-1 .card .spadesShape {
+    background-size: 40%;
+  }
+
+  #player-cards .card:nth-child(8) {
+    margin-left: 0.313em;
+  }
+
+  .chips {
+    display: none;
+  }
+
+  .display-result {
+    position: fixed;
+    top: 7%;
+    right: 1%;
+  }
+  .display-result h2 {
+    border: 3px groove #32bf84;
+    background-color: #32bf84;
+    width: 9.5em;
+    font-size: 1em;
+    vertical-align: middle;
+  }
+
+  .table-cards-start {
+    max-height: 12.25em;
+    padding-top: 1.5em;
+  }
+}
 @font-face {
   font-family: "Blackjack";
   src: url(../fonts/BLACKJAC.TTF);
