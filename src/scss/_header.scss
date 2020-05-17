@@ -1,4 +1,4 @@
-// "Header with title and cards"
+// Header with "Blackjack" title
 .header {
   display: flex;
   align-items: center;
@@ -7,42 +7,21 @@
   width: 19em;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
-  .img-right,
-  .img-left {
-    width: 60px;
-    max-width: 100%;
-    height: 90px;
-    margin: 30px;
-  }
-  .img-right {
-    transform: rotate(340deg);
-  }
-  .img-left {
-    transform: rotate(20deg);
-  }
+  padding: 0.313em;
 }
 
-// "Header title"
+// "Blackjack" title
 h1 {
-  padding-top: 10px;
   text-align: center;
   color: black;
-  font-size: 70px;
+  font-size: 4.375em;
   font-weight: bolder;
-  // font-family: "Blackjack", Arial, Helvetica, sans-serif;
 }
 
 // "Dealer and Player cards title" and "Game result display"
 h2 {
   text-align: center;
   color: #cafffb;
-  padding: 10px;
-  font-size: 26px;
-}
-
-// "Dealer and player score"
-h3 {
-  text-align: center;
-  padding: 10px;
+  padding: 0.3em;
+  font-size: 1.6em;
 }

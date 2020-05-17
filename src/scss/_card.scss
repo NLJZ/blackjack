@@ -6,24 +6,23 @@
   align-content: flex-start;
   justify-content: flex-start;
   .card {
+    background-color: white;
     border: 1px solid black;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    width: 5em;
-    max-width: 100%;
-    // min-width: 5em;
-    height: 8em;
-    background-color: white;
-    border-radius: 5px;
     align-content: center;
     justify-content: center;
+    margin: 0.313em;
+    width: 5em;
+    max-width: 100%;
+    height: 8em;
     .cardValueTop,
     .cardValueBottom {
       background-color: initial;
-      padding: 3px;
+      padding: 0.188em;
       font-family: "Cards", Arial, Helvetica, sans-serif;
-      font-size: 20px;
+      font-size: 1.25em;
     }
     .cardValueTop {
       display: flex;
@@ -74,7 +73,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-left: 210px;
+    margin-left: 12.75em;
   }
 }
 
@@ -85,13 +84,13 @@
   justify-content: center;
   .cardBackShape {
     border: 1px solid black;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 0.313em;
     width: 5em;
     height: 8em;
     background-color: white;
-    border-radius: 5px;
     background-image: url(../images/back.png);
     background-position: center;
     background-repeat: no-repeat;
