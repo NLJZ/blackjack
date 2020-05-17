@@ -17,21 +17,13 @@
 
 ## <div align="center">An enjoyable card game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).</div> <br/>
 
-![blackjack picture](./src/images/Screen_Browser_1.png)
-
 ![blackjack picture](./src/images/Screen_Browser_2.png)
-
-![blackjack picture](./src/images/Screen_Browser_3.png)
 
 ![blackjack picture](./src/images/Screen_Browser_4.png)
 
-![blackjack picture](./src/images/Screen_Mobile_Horizontal_1.png)
-
-![blackjack picture](./src/images/Screen_Mobile_Horizontal_2.png)
-
 ![blackjack picture](./src/images/Screen_Mobile_Vertical_1+2.png)
 
-## An interesting observation for us
+## A reference to an interesting algorithm we used
 
 We used the the modern version of the Fisher–Yates shuffle, the algorithm to generate a random sequence with our cards. The new algorithm, was designed for computer use by Richard Durstenfeld in 1964 and popularized by Donald E. Knuth. The basic method given for generating a random permutation of the numbers 1 through N goes as follows:
 
