@@ -45,4 +45,5 @@ const scoreUpdate = () => {
   dealerScore = dh.reduce((a, b) => a + b, 0);
   playerScore = ph.reduce((a, b) => a + b, 0);
   checkForAce();
+  resultArea.innerHTML = `<h2>You have ${playerScore}...</h2>`;
 };

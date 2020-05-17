@@ -1,11 +1,13 @@
 const youWin = () => {
   wins++;
-  resultArea.innerHTML = `<h2>You Win! You have won ${wins} times.</h2>`;
+  resultArea.innerHTML = `<h2>You Win! Dealer had: ${dealerScore}.</h2>`;
+  winsLosses();
 };
 
 const youLose = (string) => {
   losses++;
-  resultArea.innerHTML = `<h2>${string} You have lost ${losses} times.</h2>`;
+  resultArea.innerHTML = `<h2>Dealer had ${dealerScore}. ${string}`;
+  winsLosses();
 };
 
 const youTie = () => {

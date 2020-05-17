@@ -1,0 +1,18 @@
+.winsandlosses {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 1rem;
+  font-family: "Blackjack", Arial, Helvetica, sans-serif;
+  #wins,
+  #losses {
+    font-size: 1rem;
+  }
+  #losses {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
