@@ -6,6 +6,8 @@ const newButt = document.getElementById("newGame");
 const hitButt = document.getElementById("hit");
 const standButt = document.getElementById("stand");
 const tableCards = document.getElementById("table-cards-start");
+const playerWins = document.getElementById("wins");
+const playerLosses = document.getElementById("losses");
 let scoreDiv = document.createElement("div");
 scoreDiv.style.color = "#fff";
 body.appendChild(scoreDiv);
