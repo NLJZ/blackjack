@@ -1,12 +1,12 @@
 const youWin = () => {
   wins++;
-  resultArea.innerHTML = `<h2>You Win! Dealer had: ${dealerScore}.</h2>`;
+  resultArea.innerHTML = `<h2>You Win! Dealer has: ${dealerScore}.</h2>`;
   winsLosses();
 };
 
 const youLose = (string) => {
   losses++;
-  resultArea.innerHTML = `<h2>Dealer had ${dealerScore}. ${string}`;
+  resultArea.innerHTML = `<h2>Dealer has ${dealerScore}. ${string}`;
   winsLosses();
 };
 
