@@ -4,5 +4,6 @@ const checkBust = () => {
     hitButt.classList.add("hide");
     standButt.classList.add("hide");
     newButt.classList.remove("hide");
+    winsLosses();
   }
 };

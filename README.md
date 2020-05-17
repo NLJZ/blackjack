@@ -6,7 +6,7 @@
 
 <img src="./src/images/nathan.jpeg" width="150"> <h3><strong>Nathan:</strong> our Project Manager who worked on everything</h3><br/>
 
-<img src="./src/images/marcelo.jpeg" width="150"> <h3><strong>Marcelo:</strong> our HTML/CSS specialist</h3><br/>
+<img src="./src/images/marcelo.jpeg" width="150"> <h3><strong>Marcelo:</strong> our HTML/CSS contributor</h3><br/>
 
 <img src="./src/images/yaman.jpeg" width="150"> <h3><strong>Yaman:</strong> our HTML/CSS contributor</h3><br/>
 
@@ -17,7 +17,19 @@
 
 ## <div align="center">An enjoyable card game to play in your browser written with HTML, CSS/Sass and Vanilla JS (no libraries).</div> <br/>
 
-![blackjack picture](./src/images/blackjack.png)
+![blackjack picture](./src/images/Screen_Browser_1.png)
+
+![blackjack picture](./src/images/Screen_Browser_2.png)
+
+![blackjack picture](./src/images/Screen_Browser_3.png)
+
+![blackjack picture](./src/images/Screen_Browser_4.png)
+
+![blackjack picture](./src/images/Screen_Mobile_Horizontal_1.png)
+
+![blackjack picture](./src/images/Screen_Mobile_Horizontal_2.png)
+
+![blackjack picture](./src/images/Screen_Mobile_Vertical_1+2.png)
 
 ## An interesting observation for us
 

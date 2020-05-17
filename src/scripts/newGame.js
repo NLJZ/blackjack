@@ -1,3 +1,8 @@
+const winsLosses = () => {
+  playerWins.innerHTML = `Won: ${wins}`;
+  playerLosses.innerHTML = `Lost: ${losses}`;
+};
+
 const newGame = () => {
   newButt.classList.add("hide");
   tableCards.classList.add("hide");
@@ -6,6 +11,7 @@ const newGame = () => {
   buildNewDeck();
   shuffleDeck(newDeck);
   resultArea.innerHTML = "";
+  winsLosses();
   firstDeal();
   dealerCards.innerHTML = "<h2>Dealer</h2>";
   playerCards.innerHTML = "<h2>Player</h2>";
@@ -30,4 +36,15 @@ const newGame = () => {
     playerCards.innerHTML += cardDiv;
   });
   scoreUpdate();
+  if (playerScore == 21 && dealerScore !== 21) {
+    hitButt.classList.add("hide");
+    standButt.classList.add("hide");
+    newButt.classList.remove("hide");
+    youWin();
+  } else if (playerScore == 21 && dealerScore == 21) {
+    hitButt.classList.add("hide");
+    standButt.classList.add("hide");
+    newButt.classList.remove("hide");
+    youTie();
+  }
 };

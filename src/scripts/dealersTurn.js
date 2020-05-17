@@ -9,12 +9,21 @@ const stand = () => {
 const dealersTurn = () => {
   dealerCards.innerHTML = "<h2>Dealer</h2>";
   dealerHand.forEach(function (el) {
+    let cardDiv;
     let { suit, value } = el;
-    let cardDiv = `<div class="card ${suit}">
+    if (el.value == "1") {
+      cardDiv = `<div class="card ${suit}">
+    <span class=cardValueTop>A</span>
+    <span class="${suit}Shape"></span>
+    <span class=cardValueBottom>A</span>
+    </div>`;
+    } else {
+      cardDiv = `<div class="card ${suit}">
     <span class=cardValueTop>${value}</span>
     <span class="${suit}Shape"></span>
     <span class=cardValueBottom>${value}</span>
     </div>`;
+    }
     dealerCards.innerHTML += cardDiv;
   });
   while (dealerScore < 17) {
