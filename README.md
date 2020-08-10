@@ -52,4 +52,4 @@ Blackjack, also known as twenty-one, is a comparing card game between usually se
 2. Reach a final score higher than the dealer without exceeding 21; or
 3. Let the dealer draw additional cards until their hand exceeds 21.
 
-You can find more info about the game in [Wikipedia](https://en.wikipedia.org/wiki/Blackjack)
+You can find more info about the game in: [Wikipedia](https://en.wikipedia.org/wiki/Blackjack)
