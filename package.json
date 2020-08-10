@@ -28,6 +28,7 @@
     "sass": "^1.23.0-module.beta.1"
   },
   "dependencies": {
+    "node-sass": "^4.14.1",
     "watch": "^1.0.2"
   }
 }
