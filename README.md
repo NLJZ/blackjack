@@ -4,13 +4,13 @@
 
 <div align="center">
 
-<img src="./src/images/nathan.jpeg" width="150"> <h3><strong>Nathan:</strong> our Project Manager who worked on everything</h3><br/>
+<img src="./src/images/ioannis.jpeg" width="150"> <h3><strong>Ioannis:</strong>JS contributor</h3><br/>
 
-<img src="./src/images/marcelo.jpeg" width="150"> <h3><strong>Marcelo:</strong> our HTML/CSS contributor</h3><br/>
+<img src="./src/images/nathan.jpeg" width="150"> <h3><strong>Nathan:</strong> JS contributor</h3><br/>
 
-<img src="./src/images/yaman.jpeg" width="150"> <h3><strong>Yaman:</strong> our HTML/CSS contributor</h3><br/>
+<img src="./src/images/marcelo.jpeg" width="150"> <h3><strong>Marcelo:</strong> CSS contributor</h3><br/>
 
-<img src="./src/images/ioannis.jpeg" width="150"> <h3><strong>Ioannis:</strong> our JS contributor</h3><br/>
+<img src="./src/images/yaman.jpeg" width="150"> <h3><strong>Yaman:</strong>CSS contributor</h3><br/>
 
 </div>
  <br/>
